@@ -1,0 +1,33 @@
+{
+  "name": "raiza_gaming",
+  "version": "1.0.0",
+  "description": "This is a discord bot applications",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsun610/Raiza_Gaming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tsun610/Raiza_Gaming/issues"
+  },
+  "homepage": "https://github.com/Tsun610/Raiza_Gaming#readme",
+  "dependencies": {
+    "@discordx/importer": "^1.1.2",
+    "@types/node": "^16.11.11",
+    "discord.js": "^13.3.1",
+    "discordx": "^9.0.1",
+    "dotenv": "^10.0.0",
+    "mongodb": "^4.2.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.4.0",
+    "tsyringe": "^4.6.0",
+    "typescript": "^4.5.2"
+  }
+}
